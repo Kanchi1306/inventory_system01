@@ -233,3 +233,40 @@ git commit -m "made changes"
 git add blog.html
 git commit -m "changes made"
 git push origin master
+git inut
+git init
+git add .
+git commit -m "made changes"
+git remote add origin https://github.com/Kanchi1306/inventory_system
+git push -u origin master
+git remote -v
+git remote set-url origin https://github.com/Kanchi1306/inventory_system.git
+git push -u origin master
+cd ~
+cd /c/Users/Rahul/Desktop/inventory_system
+rm -rf .git
+git init
+git remote add origin https://github.com/Kanchi1306/inventory_system.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+git branch -M master
+git push origin master
+git pull origin master --allow-unrelated-histories
+git push origin master
+cd ~
+cd /c/Users/Rahul/Desktop/inventory_system
+git init
+git remote add origin https://github.com/Kanchi1306/inventory_system01
+git remote remove origin
+git remote add origin https://github.com/Kanchi1306/inventory_system01
+git add .
+git commit -m "Uploading correct vite project"
+git branch -M master
+git push -f origin master
+git remote remove origin
+git remote add origin https://github.com/Kanchi1306/inventory_system01.git
+git branch -M main
+git add .
+git commit -m "initial vite project"
+git push branch -M master
